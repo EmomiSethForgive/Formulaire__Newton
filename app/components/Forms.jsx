@@ -56,6 +56,12 @@ export function Forms() {
             <h1 className="max-sm:text-xs">BIENS IMMOBILIER</h1>
             <div className="w-[72%] bg-gray-600 md:w-[40%] md:mt-2  max-sm:m-auto h-1"></div>
           </div>
+          <select className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%]">
+            <option disabled selected className="bg-transparent">Vous etes?</option>
+            <option  className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%]">Bailleurs</option>
+            <option  className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%]">Locataire</option>
+            <option  className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%]">Agence Immobilière</option>
+          </select>
           <input type="text" placeholder="Vous etes?" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
           <input type="text" placeholder="Types" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
           <div className="flex gap-1">
