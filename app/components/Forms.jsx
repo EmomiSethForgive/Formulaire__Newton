@@ -7,7 +7,13 @@ export function Forms() {
             <h1 className="max-sm:text-xs w-[] ">INFORMATIONS PERSONNELLES</h1>
             <div className="w-[50%] md:w-[33%] bg-gray-600 md:mt-2 max-md:m-auto h-1"></div>
           </div>
-          <input type="text" placeholder="Civilité" className=" border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] " />
+          <select className=" border border-gray-600  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] ">
+            <option disabled selected>Civilité</option>
+            <option  className=" border border-gray-600 h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%]">Mr</option>
+            <option  className=" border border-gray-600 h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%]">Mme</option>
+            <option  className=" border border-gray-600 h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%]">Mlle</option>
+          </select>
+          {/* <input type="text" placeholder="Civilité" className=" border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] " /> */}
           <input type="text" placeholder="Nom" className=" border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
           <input type="text" placeholder="Prénom" className=" border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
           <div className="flex gap-1">
@@ -45,7 +51,7 @@ export function Forms() {
             <input type="text" placeholder="Date d'expiration" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-[49.7%] w-[24.8%] " />
           </div>
           <input type="text" placeholder="Fichier" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
-          <input type="text" placeholder="AJOUTER" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] " />
+          <button type="submit"className="border border-gray-600 bg-transparent  h-10  rounded-md font-semibold w-[25%]  md:w-[15%] ">AJOUTER</button>
           <div className="flex w-full mt-3 mb-3 font-semibold ">
             <h1 className="max-sm:text-xs">BIENS IMMOBILIER</h1>
             <div className="w-[72%] bg-gray-600 md:w-[40%] md:mt-2  max-sm:m-auto h-1"></div>
@@ -58,7 +64,7 @@ export function Forms() {
           </div>
           <input type="text" placeholder="Nombre de pieces" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
           <input type="text" placeholder="Location" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
-          <input type="text" placeholder="Ajouter" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] " />
+          <button type="submit"className="border border-gray-600 bg-transparent  h-10  rounded-md font-semibold w-[25%]  md:w-[15%] ">Ajouter</button>
         </div>
       </form>
     </div>
