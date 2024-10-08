@@ -7,8 +7,8 @@ export function Forms() {
             <h1 className="max-sm:text-xs w-[] ">INFORMATIONS PERSONNELLES</h1>
             <div className="w-[50%] md:w-[33%] bg-gray-600 md:mt-2 max-md:m-auto h-1"></div>
           </div>
-          <select className=" border border-gray-600  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] ">
-            <option disabled selected>Civilité</option>
+          <select className=" border border-gray-600  h-10 bg-transparent rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] ">
+            <option disabled selected className="bg-transparent">Civilité</option>
             <option  className=" border border-gray-600 h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%]">Mr</option>
             <option  className=" border border-gray-600 h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%]">Mme</option>
             <option  className=" border border-gray-600 h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%]">Mlle</option>
