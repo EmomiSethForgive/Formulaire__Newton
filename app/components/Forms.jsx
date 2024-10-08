@@ -5,7 +5,7 @@ export function Forms() {
         <div className="flex flex-col w-95% gap-2">
           <div className="flex mt-3 mb-3 font-semibold w-full">
             <h1 className="max-sm:text-xs w-[] ">INFORMATIONS PERSONNELLES</h1>
-            <div className="w-[50%] md:w-[33%] bg-gray-600 bg-transparent md:mt-2 max-md:m-auto h-1"></div>
+            <div className="w-[50%] md:w-[33%] bg-gray-600 md:mt-2 max-md:m-auto h-1"></div>
           </div>
           <input type="text" placeholder="Civilité" className=" border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] " />
           <input type="text" placeholder="Nom" className=" border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
@@ -21,7 +21,7 @@ export function Forms() {
           <input type="text" placeholder="Fichier" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
           <div className="flex w-full mt-3 mb-3 font-semibold ">
             <h1 className="max-sm:text-xs">COORDONNEES</h1>
-            <div className="w-[90%] bg-gray-600 bg-transparent md:w-[41%] md:mt-2 max-sm:m-auto h-1"></div>
+            <div className="w-[90%] bg-gray-600 md:w-[41%] md:mt-2 max-sm:m-auto h-1"></div>
           </div>
           <input type="text" placeholder="Ville de résisdence" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
           <input type="text" placeholder="Adresse" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
@@ -31,7 +31,7 @@ export function Forms() {
           </div>
           <div className="flex w-full mt-3 mb-3 font-semibold ">
             <h1 className="max-sm:text-xs">AYANT DROIT</h1>
-            <div className="w-[80%] md:w-[43%] md:mt-2 bg-gray-600 bg-transparent  max-sm:m-auto h-1"></div>
+            <div className="w-[80%] md:w-[43%] md:mt-2 bg-gray-600 max-sm:m-auto h-1"></div>
           </div>
           <input type="text" placeholder="Filiation" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] " />
           <input type="text" placeholder="Nom" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
@@ -48,7 +48,7 @@ export function Forms() {
           <input type="text" placeholder="AJOUTER" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 w-[25%]  md:w-[15%] " />
           <div className="flex w-full mt-3 mb-3 font-semibold ">
             <h1 className="max-sm:text-xs">BIENS IMMOBILIER</h1>
-            <div className="w-[72%] bg-gray-600 bg-transparent md:w-[40%] md:mt-2  max-sm:m-auto h-1"></div>
+            <div className="w-[72%] bg-gray-600 md:w-[40%] md:mt-2  max-sm:m-auto h-1"></div>
           </div>
           <input type="text" placeholder="Vous etes?" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
           <input type="text" placeholder="Types" className="border border-gray-600 bg-transparent  h-10  rounded-md pl-3 max-sm:pl-2 max-sm:w-full w-[70%] md:w-[50%] " />
