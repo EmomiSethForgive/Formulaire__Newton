@@ -3,7 +3,7 @@
 export function Deuxième() {
   return (
     <div className=" w-[50%] max-sm:mt-10 max-sm:w-full  ">
-      <form className=" flex flex-col mr-4 max-sm:ml-3 max-sm:mr-3 gap-4">
+      <form className=" flex flex-col bg-pink-50 border-r-4 border-l-4 border-t-4 border-b-4 border-pink-200 p-4 rounded-lg mr-4 max-sm:ml-3 max-sm:mr-3 gap-4">
         <div className="flex justify-between">
           <div className={``}>
             <img

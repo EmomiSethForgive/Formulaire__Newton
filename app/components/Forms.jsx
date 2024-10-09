@@ -24,7 +24,7 @@ export function Forms() {
             <input type="text" placeholder="Types de piece" className="border border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-[49.7%] md:w-[39.6%] lg:w-[24.8%]" />
             <input type="text" placeholder="Date d'expiration" className="border border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-[49.7%] md:w-[39.6%] lg:w-[24.8%] " />
           </div>
-          <input type="text" placeholder="Fichier" className="border border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-full w-[%] md:w-[80%] lg:w-[50%] " />
+          <input type="file" placeholder="Fichier" className="border pt-1 border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-full w-[%] md:w-[80%] lg:w-[50%] " />
           <div className="flex w-full mt-3 mb-3 font-semibold ">
             <h1 className="max-sm:text-xs">COORDONNEES</h1>
             <div className="w-[90%] bg-gray-600 md:w-[55%] lg:w-[32%] md:mt-2 max-sm:m-auto h-1"></div>
@@ -44,7 +44,7 @@ export function Forms() {
           <input type="text" placeholder="Prénom" className="border border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-full w-[%] md:w-[80%] lg:w-[50%] " />
           <div className="flex gap-1">
             <input type="text" placeholder="Lieu de naissance" className="border border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-[49.7%] md:w-[39.6%] lg:w-[24.8%] " />
-            <input type="text" placeholder="Date de naissance" className="border border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-[49.7%] md:w-[39.6%] lg:w-[24.8%] " />
+            <input type="date" placeholder="Date de naissance" className="border border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-[49.7%] md:w-[39.6%] lg:w-[24.8%] " />
           </div>
           <div className="flex gap-1">
             <input type="text" placeholder="Types de piece" className="border border-gray-600 bg-transparent  h-10  rounded-md md:pl-1 lg:pl-3 max-sm:pl-2 max-sm:w-[49.7%] md:w-[39.6%] lg:w-[24.8%] " />
