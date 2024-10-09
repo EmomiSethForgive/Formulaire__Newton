@@ -9,7 +9,7 @@ export default function Home() {
       <h1 className="m-auto font-bold mt-3 md:text-xl">
         FORMULAIRE DE SOUSCRIPTION
       </h1>
-      <div className="md:flex md:justify-around">
+      <div className=" md:flex">
         <Forms />
         <Deuxième />
         {/* <RadioGroup /> */}

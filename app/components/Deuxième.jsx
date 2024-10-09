@@ -3,7 +3,7 @@
 export function Deuxième() {
   return (
     <div className=" w-[50%] max-sm:mt-10 max-sm:w-full  ">
-      <form className=" flex flex-col gap-4">
+      <form className=" flex flex-col max-sm:ml-3 max-sm:mr-3 gap-4">
         <div className="flex max-sm:justify-between">
           <div className={``}>
             <img
@@ -18,7 +18,7 @@ export function Deuxième() {
         </div>
         <div className="flex flex-col gap-2">
         <p className="font-bold md:text-lg">Produit</p>
-        <h1 className="bg-blue-800 w-[60%] max-sm:w-full   text-white h-10 pt-2 pl-3 rounded-md  font-medium ">
+        <h1 className="bg-blue-800 w-[60%] max-sm:w-full md:text-xs lg:text-base text-white h-10 pt-2 pl-3 rounded-md  font-medium ">
           SAMBA AGRIKOL-SAMBA
         </h1>
         </div>
